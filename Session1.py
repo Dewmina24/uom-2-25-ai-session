@@ -12,8 +12,8 @@ def is_subsequence(x0, y0):
         j += 1
     return i == len(x0)
 
-# Example usage:
-print_christmas_tree(10)
-print(is_subsequence("apple", "adcsjncjsppaxjjnaxle"))  # True
-print(is_subsequence("apple", "bsdpple"))  # False
-print(is_subsequence("apple", "paple"))  # False
+
+print_christmas_tree(15)
+print(is_subsequence("apple", "adcsjncjsppaxjjnaxle"))
+print(is_subsequence("car", "computer"))
+print(is_subsequence("ton", "python"))
